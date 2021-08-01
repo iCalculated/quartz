@@ -1,12 +1,11 @@
-name: Jacky Zhao
+name: Sasha Hydrie
 enableToc: true
 description:
-  Here is the page description. This is an example Quartz site that details installation,
-  setup, customization, and troubleshooting for Quartz itself.
+  This is my digital garden/tech blog where I'll be covering my projects in the month of August.
 page_title:
-  Quartz Example Page
+  Defying Entropy
 links:
-  - link_name: Twitter
-    link: https://twitter.com/_jzhao
+  - link_name: Email
+    link: mailto:sasha.hydrie@gmail.com
   - link_name: Github
-    link: https://github.com/jackyzha0
+    link: https://github.com/iCalculated

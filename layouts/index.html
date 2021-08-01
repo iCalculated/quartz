@@ -3,9 +3,30 @@
 {{end}}
 
 {{define "main"}}
+
+<div id="landing-container">
+  <div id = "landing-overlay" class="lt-content-column">
+    <div>
+      <div id="main-landing">
+        <h1>Hi!</h1>
+        <div class="rotating-text">
+          <h1 class="mobile-hide">I’m </h1>
+          <h1>
+            {{- range $index, $desc := $.Site.Data.me.descriptors -}}
+              <span class="word col{{add (mod $index 4) 1}}">{{$desc}}</span>
+            {{- end -}}
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  {{partial "3dgraph.html" .}}
+</div>
+
 <!-- Main Page -->
 <div class="singlePage">
     {{partial "darkmode.html" .}}
+    {{partial "3dgraph.html" .}}
     {{.Content}}
 
     <!-- Contact Info -->
