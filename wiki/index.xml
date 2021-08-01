@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Wikis on</title><link>https://quartz.jzhao.xyz/wiki/</link><description>Recent content in Wikis on</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://quartz.jzhao.xyz/wiki/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo</title><link>https://quartz.jzhao.xyz/wiki/hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://quartz.jzhao.xyz/wiki/hugo/</guid><description>Hugo Frontmatter Title is required.
+Hugo Obsidian Used to generate graph and interactive links:
+1 hugo-obsidian -input=content -output=data Run Can server locally with
+1 hugo server</description></item><item><title>Quartz</title><link>https://quartz.jzhao.xyz/wiki/quartz/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://quartz.jzhao.xyz/wiki/quartz/</guid><description>Quartz Used to publish Obsidian vaults without paying 4 USD/month.
+Built on Hugo , pages live in the content directory so I just symlinked my vault.
+Home page lives in content/_index.md by default.
+Colors can be edited in assets/custom.scss.
+Image links should be prefixed with /. (untested)
+Customization Graph view customization in data/graphConfig.yaml
+1 2 3 4 5 enableLegend:false# automatically generate a legendenableDrag:true# allow dragging nodes in the graphenableZoom:true# allow zooming and panning the graphpaths:# colour specific nodes path off of their path- /moc:&amp;#34;#4388cc&amp;#34; Custom CSS in assets/custom.</description></item><item><title>Wiki Index</title><link>https://quartz.jzhao.xyz/wiki/wiki_moc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://quartz.jzhao.xyz/wiki/wiki_moc/</guid><description>Wiki Welcome to the wiki portion of my site.
+These pages are for my own benefit and are going to be even less polished than my actual posts.
+You have been warned.
+Technologies Quartz Hugo</description></item></channel></rss>
