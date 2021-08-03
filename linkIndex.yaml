@@ -4,277 +4,75 @@ index:
     links:
         content/:
             - source: content/
-              target: /moc/directory
-              text: Directory
+              target: /projects/00
+              text: 'Day 0: Terms ~~& Conditions~~'
             - source: content/
-              target: /august_of_code/wiki/wiki_index
-              text: Wiki
-        content/august_of_code/quartz:
-            - source: content/august_of_code/quartz
-              target: /hugo
+              target: /projects/01
+              text: 'Day 1: Garden Setup'
+            - source: content/
+              target: /projects/02
+              text: 'Day 2: Garden Configuration'
+            - source: content/
+              target: /wiki/wiki_moc
+              text: Here
+        content/wiki/quartz:
+            - source: content/wiki/quartz
+              target: /wiki/hugo
               text: Hugo
-        content/august_of_code/wiki:
-            - source: content/august_of_code/wiki
-              target: /quartz
+        content/wiki/wiki_moc:
+            - source: content/wiki/wiki_moc
+              target: /wiki/quartz
               text: Quartz
-            - source: content/august_of_code/wiki
-              target: /hugo
+            - source: content/wiki/wiki_moc
+              target: /wiki/hugo
               text: Hugo
-        content/moc/directory:
-            - source: content/moc/directory
-              target: /notes/setup
-              text: Setup your own digital garden using Quartz
-            - source: content/moc/directory
-              target: /notes/obsidian
-              text: Linking with an Obsidian Vault
-            - source: content/moc/directory
-              target: /notes/config
-              text: Customizing and Styling Quartz
-            - source: content/moc/directory
-              target: /notes/hosting
-              text: Hosting Quartz online!
-            - source: content/moc/directory
-              target: /moc/showcase
-              text: community digital gardens
-            - source: content/moc/directory
-              target: /notes/troubleshooting
-              text: Troubleshooting and FAQ
-        content/notes/config:
-            - source: content/notes/config
-              target: /notes/troubleshooting
-              text: FAQ and Troubleshooting guide
-        content/notes/editing:
-            - source: content/notes/editing
-              target: /notes/ignore-notes
-              text: Excluding pages from being published
-            - source: content/notes/editing
-              target: /notes/config
-              text: A link to the config page
-            - source: content/notes/editing
-              target: /notes/preview-changes
-              text: Preview Quartz Changes
-            - source: content/notes/editing
-              target: /notes/hosting
-              text: Hosting Quartz online!
-            - source: content/notes/editing
-              target: /notes/troubleshooting
-              text: FAQ and Troubleshooting guide
-            - source: content/notes/editing
-              target: /notes/obsidian
-              text: How to link your Obsidian Vault
-        content/notes/hosting:
-            - source: content/notes/hosting
-              target: /notes/config
-              text: Customizing Quarts
-            - source: content/notes/hosting
-              target: /notes/troubleshooting
-              text: FAQ and Troubleshooting guide
-        content/notes/setup:
-            - source: content/notes/setup
-              target: /notes/troubleshooting
-              text: FAQ and Troubleshooting guide
-            - source: content/notes/setup
-              target: /notes/editing
-              text: Editing Notes in Quartz
-        content/notes/troubleshooting:
-            - source: content/notes/troubleshooting
-              target: /notes/hosting
-              text: hosting
-            - source: content/notes/troubleshooting
-              target: /notes/obsidian
-              text: Obsidian
-            - source: content/notes/troubleshooting
-              target: /notes/hosting
-              text: the hosting guide
-            - source: content/notes/troubleshooting
-              target: /notes/config
-              text: customization guide
-            - source: content/notes/troubleshooting
-              target: /notes/editing
-              text: local editing
-            - source: content/notes/troubleshooting
-              target: /notes/ignore-notes
-              text: excluding pages from being published
     backlinks:
-        /august_of_code/wiki/wiki_index:
+        /projects/00:
             - source: content/
-              target: /august_of_code/wiki/wiki_index
-              text: Wiki
-        /hugo:
-            - source: content/august_of_code/quartz
-              target: /hugo
-              text: Hugo
-            - source: content/august_of_code/wiki
-              target: /hugo
-              text: Hugo
-        /moc/directory:
+              target: /projects/00
+              text: 'Day 0: Terms ~~& Conditions~~'
+        /projects/01:
             - source: content/
-              target: /moc/directory
-              text: Directory
-        /moc/showcase:
-            - source: content/moc/directory
-              target: /moc/showcase
-              text: community digital gardens
-        /notes/config:
-            - source: content/moc/directory
-              target: /notes/config
-              text: Customizing and Styling Quartz
-            - source: content/notes/editing
-              target: /notes/config
-              text: A link to the config page
-            - source: content/notes/hosting
-              target: /notes/config
-              text: Customizing Quarts
-            - source: content/notes/troubleshooting
-              target: /notes/config
-              text: customization guide
-        /notes/editing:
-            - source: content/notes/setup
-              target: /notes/editing
-              text: Editing Notes in Quartz
-            - source: content/notes/troubleshooting
-              target: /notes/editing
-              text: local editing
-        /notes/hosting:
-            - source: content/moc/directory
-              target: /notes/hosting
-              text: Hosting Quartz online!
-            - source: content/notes/editing
-              target: /notes/hosting
-              text: Hosting Quartz online!
-            - source: content/notes/troubleshooting
-              target: /notes/hosting
-              text: hosting
-            - source: content/notes/troubleshooting
-              target: /notes/hosting
-              text: the hosting guide
-        /notes/ignore-notes:
-            - source: content/notes/editing
-              target: /notes/ignore-notes
-              text: Excluding pages from being published
-            - source: content/notes/troubleshooting
-              target: /notes/ignore-notes
-              text: excluding pages from being published
-        /notes/obsidian:
-            - source: content/moc/directory
-              target: /notes/obsidian
-              text: Linking with an Obsidian Vault
-            - source: content/notes/editing
-              target: /notes/obsidian
-              text: How to link your Obsidian Vault
-            - source: content/notes/troubleshooting
-              target: /notes/obsidian
-              text: Obsidian
-        /notes/preview-changes:
-            - source: content/notes/editing
-              target: /notes/preview-changes
-              text: Preview Quartz Changes
-        /notes/setup:
-            - source: content/moc/directory
-              target: /notes/setup
-              text: Setup your own digital garden using Quartz
-        /notes/troubleshooting:
-            - source: content/moc/directory
-              target: /notes/troubleshooting
-              text: Troubleshooting and FAQ
-            - source: content/notes/config
-              target: /notes/troubleshooting
-              text: FAQ and Troubleshooting guide
-            - source: content/notes/editing
-              target: /notes/troubleshooting
-              text: FAQ and Troubleshooting guide
-            - source: content/notes/hosting
-              target: /notes/troubleshooting
-              text: FAQ and Troubleshooting guide
-            - source: content/notes/setup
-              target: /notes/troubleshooting
-              text: FAQ and Troubleshooting guide
-        /quartz:
-            - source: content/august_of_code/wiki
-              target: /quartz
+              target: /projects/01
+              text: 'Day 1: Garden Setup'
+        /projects/02:
+            - source: content/
+              target: /projects/02
+              text: 'Day 2: Garden Configuration'
+        /wiki/hugo:
+            - source: content/wiki/quartz
+              target: /wiki/hugo
+              text: Hugo
+            - source: content/wiki/wiki_moc
+              target: /wiki/hugo
+              text: Hugo
+        /wiki/quartz:
+            - source: content/wiki/wiki_moc
+              target: /wiki/quartz
               text: Quartz
+        /wiki/wiki_moc:
+            - source: content/
+              target: /wiki/wiki_moc
+              text: Here
 links:
     - source: content/
-      target: /moc/directory
-      text: Directory
+      target: /projects/00
+      text: 'Day 0: Terms ~~& Conditions~~'
     - source: content/
-      target: /august_of_code/wiki/wiki_index
-      text: Wiki
-    - source: content/august_of_code/quartz
-      target: /hugo
+      target: /projects/01
+      text: 'Day 1: Garden Setup'
+    - source: content/
+      target: /projects/02
+      text: 'Day 2: Garden Configuration'
+    - source: content/
+      target: /wiki/wiki_moc
+      text: Here
+    - source: content/wiki/quartz
+      target: /wiki/hugo
       text: Hugo
-    - source: content/august_of_code/wiki
-      target: /quartz
+    - source: content/wiki/wiki_moc
+      target: /wiki/quartz
       text: Quartz
-    - source: content/august_of_code/wiki
-      target: /hugo
+    - source: content/wiki/wiki_moc
+      target: /wiki/hugo
       text: Hugo
-    - source: content/moc/directory
-      target: /notes/setup
-      text: Setup your own digital garden using Quartz
-    - source: content/moc/directory
-      target: /notes/obsidian
-      text: Linking with an Obsidian Vault
-    - source: content/moc/directory
-      target: /notes/config
-      text: Customizing and Styling Quartz
-    - source: content/moc/directory
-      target: /notes/hosting
-      text: Hosting Quartz online!
-    - source: content/moc/directory
-      target: /moc/showcase
-      text: community digital gardens
-    - source: content/moc/directory
-      target: /notes/troubleshooting
-      text: Troubleshooting and FAQ
-    - source: content/notes/config
-      target: /notes/troubleshooting
-      text: FAQ and Troubleshooting guide
-    - source: content/notes/editing
-      target: /notes/ignore-notes
-      text: Excluding pages from being published
-    - source: content/notes/editing
-      target: /notes/config
-      text: A link to the config page
-    - source: content/notes/editing
-      target: /notes/preview-changes
-      text: Preview Quartz Changes
-    - source: content/notes/editing
-      target: /notes/hosting
-      text: Hosting Quartz online!
-    - source: content/notes/editing
-      target: /notes/troubleshooting
-      text: FAQ and Troubleshooting guide
-    - source: content/notes/editing
-      target: /notes/obsidian
-      text: How to link your Obsidian Vault
-    - source: content/notes/hosting
-      target: /notes/config
-      text: Customizing Quarts
-    - source: content/notes/hosting
-      target: /notes/troubleshooting
-      text: FAQ and Troubleshooting guide
-    - source: content/notes/setup
-      target: /notes/troubleshooting
-      text: FAQ and Troubleshooting guide
-    - source: content/notes/setup
-      target: /notes/editing
-      text: Editing Notes in Quartz
-    - source: content/notes/troubleshooting
-      target: /notes/hosting
-      text: hosting
-    - source: content/notes/troubleshooting
-      target: /notes/obsidian
-      text: Obsidian
-    - source: content/notes/troubleshooting
-      target: /notes/hosting
-      text: the hosting guide
-    - source: content/notes/troubleshooting
-      target: /notes/config
-      text: customization guide
-    - source: content/notes/troubleshooting
-      target: /notes/editing
-      text: local editing
-    - source: content/notes/troubleshooting
-      target: /notes/ignore-notes
-      text: excluding pages from being published

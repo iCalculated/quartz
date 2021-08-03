@@ -7,17 +7,7 @@
 <div id="landing-container">
   <div id = "landing-overlay" class="lt-content-column">
     <div>
-      <div id="main-landing">
-        <h1>Hi!</h1>
-        <div class="rotating-text">
-          <h1 class="mobile-hide">I’m </h1>
-          <h1>
-            {{- range $index, $desc := $.Site.Data.me.descriptors -}}
-              <span class="word col{{add (mod $index 4) 1}}">{{$desc}}</span>
-            {{- end -}}
-          </h1>
-        </div>
-      </div>
+      {{partial "landing.html" .}}
     </div>
   </div>
   {{partial "3dgraph.html" .}}
@@ -35,9 +25,12 @@
     </div>
 </div>
 
-{{- with resources.Get "darkmode.js" | minify -}}
-<script>
-  {{.Content | safeJS }}
-</script>
+{{ $css := slice "script.js" "darkmode.js" }}
+{{range $css}}
+{{- with resources.Get . | minify -}}
+  <script>
+    {{.Content | safeJS }}
+  </script>
 {{- end -}}
+{{end}}
 {{end}}

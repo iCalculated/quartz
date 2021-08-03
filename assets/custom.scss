@@ -23,6 +23,10 @@
   --outlinegray: #343434 !important;
 }
 
+.lt-content-column {
+  padding: 20px 20vw 20px 20vw;
+}
+
 /* Landing Page CSS */
 #landing-container {
   position: relative;
@@ -68,6 +72,11 @@
       animation-delay: #{$i * .1 + 1.2}s;
     }
   }
+}
+
+h1 {
+  font-size: 4em;
+  margin-bottom: 0;
 }
 
 .col1 {
