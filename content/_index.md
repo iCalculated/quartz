@@ -9,7 +9,8 @@ I'll be putting all of my side project learning this month here.
 - [Day 0: Terms ~~& Conditions~~](projects/00.md)
 - [Day 1: Garden Setup](projects/01.md)
 - [Day 2: Garden Configuration](projects/02.md)
-- *Day 3 soon to come...*
+- [Day 3: JavaScript `reduce` Interlude](projects/03.md)
+- *Day 4 soon to come...*
 
 ## Why?
 
