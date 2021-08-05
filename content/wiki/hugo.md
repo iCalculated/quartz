@@ -23,3 +23,16 @@ Can server locally with
 ```shell
 hugo server
 ```
+
+## [Templates](https://gohugo.io/templates/introduction/)
+
+Based on Go, templates are HTML files with references to [variables](https://gohugo.io/variables/) and [functions](https://gohugo.io/functions/) indicated via `{{ }}`. 
+
+## Markdown
+
+Can add custom attributes by including the following after a title or block:
+
+```
+#Title
+{.className}
+ ```

@@ -1,5 +1,7 @@
-enableLegend: false
+enableLegend: true
 enableDrag: true
 enableZoom: true
 paths:
-  - /moc: "#4388cc"
+  - /wiki: "#cc43cc"
+  - /projects: "#ffd700"
+  - /: "#3f085e"

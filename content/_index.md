@@ -10,7 +10,8 @@ I'll be putting all of my side project learning this month here.
 - [Day 1: Garden Setup](projects/01.md)
 - [Day 2: Garden Configuration](projects/02.md)
 - [Day 3: JavaScript `reduce` Interlude](projects/03.md)
-- *Day 4 soon to come...*
+- [Day 4: Garden Customization](projects/04.md)
+- *Day 5 soon to come...*
 
 ## Why?
 
