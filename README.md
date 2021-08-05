@@ -1,6 +1,7 @@
-# Quartz
-Simple second brain and digital garden.
+# Defying Entropy
 
-> “He who works with the door open gets all kinds of interruptions, but he also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+My digital garden with all of my side projects in Aug.st
 
-🔗 Get Started: https://quartz.jzhao.xyz/
+## Diagram
+
+![Visualization of the codebase](./diagram.svg)
