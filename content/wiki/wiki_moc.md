@@ -15,3 +15,4 @@ You have been warned.
 
 - [Quartz](wiki/quartz.md)
 - [Hugo](wiki/hugo.md)
+- [Browser](wiki/browser.md)
