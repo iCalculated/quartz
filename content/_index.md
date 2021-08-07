@@ -11,7 +11,8 @@ I'll be putting all of my side project learning this month here.
 - [Day 2: Garden Configuration](projects/02.md)
 - [Day 3: JavaScript `reduce` Interlude](projects/03.md)
 - [Day 4: Garden Customization](projects/04.md)
-- *Day 5 soon to come...*
+- [Day 5: Comma AI Research and Browsers](projects/05.md)
+- [Day 6: Automating the Boring Stuff](projects/06.md)
 
 ## Why?
 

@@ -74,6 +74,9 @@ Can attach arbitrary attributes to HTML nodes then get with `getAttribute(name)`
 ```
 - `document.getElementByClassName(class)`
 
+#### Selectors
+
+CSS selector syntax can be used in `querySelector(selector)` and `querySelectorAll(selector)` to find elements.
 #### Editing
 
 - `remove()`: remove from parent node
@@ -82,5 +85,30 @@ Can attach arbitrary attributes to HTML nodes then get with `getAttribute(name)`
 - `insertBefore(new, old)`: inserts `new` before `old`.
 - `createTextNode(text)`: creates node with `text`.
 - `createElement(type)`: creates a node of `type`.
+
+## Styling
+
+Can change `style` property of blocks:
+
+```HTML
+<p><a href=".">Normal link</a></p>
+<p><a href="." style="color: green">Green link</a></p>
+```
+
+JS gets access through `element.style.property_name`, e.g. `para.style.color = "magneta"`.  Properties with hyphenation, such as `font-family` get camelCased, `fontFamily`.
+
+### Fields
+
+- `color: ...`: self-explanatory
+- `display: inline, block, none`: how the element should be displayed
+- `position: static, relative, absolute`: `relative` allows an off-set from `static` position. `absolute` ignores other elements and allows for exact positioning.
+
+### CSS
+
+*Cascading Style Sheets*, named as such because multiple rules are combined to determine the final style, with later rules overruling earlier ones.
+
+Identifiers include `.class_name`, `#id`, or simple `element`. They can be strung together, e.g. `p#main.a.b` matches a paragraph with id `main` and classes `a` and `b`. Precedence favors specificity.
+
+Notation `p > a {...}` applies styling to all `<a>` tags that are children of `<p>` tags and `p a {...}` does the same except they can be indirect children.
 
 [^quote]: borrowed from [here](https://eloquentjavascript.net/13_browser.html)
